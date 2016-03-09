@@ -1,3 +1,11 @@
 require 'sinatra'
-
-
+require 'sinatra/contrib'
+require 'tilt'
+require 'sinatra/assetpack'
+require 'sinatra/reloader' if development?
+require 'better_errors'
+require 'pry'
+require 'haml'
+require 'sass'
+require 'pg'
+require 'data_mapper'
